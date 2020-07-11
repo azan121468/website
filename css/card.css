@@ -1,0 +1,15 @@
+img
+{
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 2s;
+}
+img:hover
+{
+    cursor: pointer;
+    transform: scale(2);
+}
+.row
+{
+    display: inline-block;
+}

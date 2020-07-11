@@ -1,0 +1,75 @@
+html
+{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+img
+{
+    height: 40px;
+    width: 40px;
+    clip-path: circle(60% at 50% 50%);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+body
+{
+    margin: 0px;
+    font-family: arial;
+}
+.footer-tag
+{
+    height: 3%;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+}
+#menu
+{
+   background-color: rgba(255, 255, 255, 0.5);
+   display: block;
+   padding: 1em 0; /*em is relative to  font 2em means 2x of default font size*/
+   text-align: center;
+   position: sticky;
+   top: 0px;
+}
+#menu a
+{
+    color: #006266;
+    margin: 0 1em;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    text-transform: uppercase;
+}
+.section
+{
+    padding: 60px 40px;
+    height: 100%;
+    scroll-snap-align: start;
+}
+.section h2
+{
+    font-size: 30px;
+    text-align: center;
+}
+#home
+{
+    background-color: #FAD390;
+}
+#about
+{
+    background-color: #82ccdd;
+}
+#gallery
+{
+    background-color: #B8E994;
+}
+#contact
+{
+    background-color: #FDA7FD;
+}
